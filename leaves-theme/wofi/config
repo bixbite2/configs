@@ -1,0 +1,4 @@
+term=alacritty
+mode=drun
+allow_images=true
+width=30%
