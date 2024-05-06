@@ -32,21 +32,13 @@ output * bg /home/bix/Images/Wallpapers/redpaper.png fill
 # Bagulho pro obs
 exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
 
-# Bagulho pra notificação
-
-exec dunst
-
-
-
-
 #
 # Example configuration:
 #
 
 # Set up the layout of the monitors
 # output VGA-1 resolution 1366x768 position 0,312
-output HDMI-A-1 resolution 1920x1080 position 1920,0
-output eDP-1 resolution 1920x1080 position 0,750
+output HDMI-A-1 resolution 1920x1080 position 1366,0
 
 # swaymsg -t get_outputs pra pegar os nomes
 
